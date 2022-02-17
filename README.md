@@ -1,2 +1,2 @@
-# VBA
-Visual Basic for Application
+# VB6
+Visual Basic6
