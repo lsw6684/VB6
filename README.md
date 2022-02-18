@@ -16,7 +16,7 @@ Private Sub Form_Click()
    Dim a As Integer
    Dim b As Integer
    Dim c As Integer
-   
+    
    a = 1
    b = 2
    c = a + b
