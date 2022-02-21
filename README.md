@@ -1,5 +1,5 @@
 # VB6
-Visual Basic 6
+Visual Basic 6 이건뭐 객체지향에 절차지향 담갔다 뺀건가ㅏㅏㅏㅏㅏ
 
 - [Fundamental Functions](#fundamental-functions)
 
@@ -50,7 +50,9 @@ Visual Basic 6
 
     'casting & length
     strTest = Str(temp)
-    intTest = Len(strTest)
+    intTest = Len(strTest) '변수 최소 할당 공간은 2이며, 1만큼 비워두는 것으로 추정.
+    '공백과 1의 길이는 2
+    '11의 길이는 3
 
     Format4 = temp & Space(intTest)
 
