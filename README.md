@@ -12,8 +12,10 @@ Visual Basic 6 이건뭐 객체지향에 절차지향 담갔다 뺀건가ㅏㅏ�
 
     '출력
     Print "This is my first VB"
-    
+    MsgBox("내용", 아이콘 및 버튼 Type, "메시지 박스 제목")
+
     '선언 - Dim 변수명 As 데이터 형식
+    'Dim - Declare In Memory
     Dim a As Integer
     Dim b As Integer
     Dim c As Integer
