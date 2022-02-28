@@ -1,7 +1,32 @@
 # VB6
 Visual Basic 6 이건뭐 객체지향에 절차지향 담갔다 뺀건가ㅏㅏㅏㅏㅏ
 
+- [기본 컨트롤](#기본-컨트롤)
+    - [Form](#form)
+    - [Button](#button)
+    - [Text Box](#text-box)
+    - [Label](#label)
+    - [GroupBox](#groupbox)
+    
 - [Fundamental Functions](#fundamental-functions)
+
+## 기본 컨트롤
+
+### Form
+프로그램을 실행시켰을 때 나타나는 윈도우 객체입니다. 모양과 행동을 제어할 수 있는 **속성, 메서드, 이벤트**가 있습니다.
+
+### Button
+명령을 내릴 수 있도록 하는 버튼으로, 모양을 나타내는 **속성과 클릭 이벤트**가 있습니다.
+
+### Text Box
+입력, 텍스트 출력에 사용되는 컨트롤로 **글자 수를 제한하는 속성과 여러 줄로 표시하는 속성** 등이 있습니다.
+
+### Label
+사용자가 변경할 수 없는 텍스트를 표시할 때 사용하는 컨트롤이며, 레이블의 모양을 결정하는 속성들을 가지고 있습니다.
+
+### GroupBox
+그룹핑 하여 사용하는 컨트롤로 모양을 결정하는 속성을 가집니다.
+
 
 
 ## Fundamental functions
@@ -40,6 +65,9 @@ Visual Basic 6 이건뭐 객체지향에 절차지향 담갔다 뺀건가ㅏㅏ�
     For i = 0 To n
         Print i
     Next i
+    '또는   For 변수 = 초기 값 To 최종 값 Step 증감값
+    '           내용
+    '       Next 변수
     End Sub
     ```
 - Casting
